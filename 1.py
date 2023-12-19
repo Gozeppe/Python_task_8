@@ -101,7 +101,7 @@ def changeContact(fileName):
             with open(fileName, "w", encoding="UTF-8") as file:
                 file.write("".join(data))
                 print("\nКонтакт был успешно изменен!")
-                input("\n--- нажмите для продолжения Enter ---")
+                input("\n-- нажмите для продолжения Enter --")
         else:
             return
 
@@ -161,5 +161,5 @@ def main(file_name):
 
 
 path = "phonebook.txt"
-#	ヽ(o＾▽＾o)ノ   
+#ヽ(o＾▽＾o)ノ
 main(path)
